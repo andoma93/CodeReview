@@ -11,8 +11,10 @@ import PlaygroundSupport
 
 public class IntroPageVC: UIViewController, PlaygroundLiveViewMessageHandler, PlaygroundLiveViewSafeAreaContainer {
     
+    @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var labelMessage: UILabel!
     private var message : String!
+    private var image : UIImage!
     
     /*
      public func liveViewMessageConnectionOpened() {
@@ -32,11 +34,13 @@ public class IntroPageVC: UIViewController, PlaygroundLiveViewMessageHandler, Pl
     public override func viewDidLoad() {
         super.viewDidLoad()
         self.labelMessage.text = message
+        self.imageView.image = image
     }
     
-    class func instantiate(message: String) -> IntroPageVC{
+    class func instantiate(message: String, nameImage: String) -> IntroPageVC{
         let vc = UIStoryboard(name: "LiveView", bundle: nil).instantiateViewController(withIdentifier: "introPageVCIdentifier") as! IntroPageVC
         vc.message = message
+        vc.image = UIImage(named: nameImage)
         return vc
     }
     

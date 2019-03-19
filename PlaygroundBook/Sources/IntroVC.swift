@@ -16,8 +16,12 @@ public class IntroVC: UIPageViewController, PlaygroundLiveViewMessageHandler, Pl
     
     fileprivate lazy var pages: [UIViewController] = {
         return [
-            IntroPageVC.instantiate(message: "Page 1"),
-            IntroPageVC.instantiate(message: "Page 2")
+            IntroPageVC.instantiate(message: "What is Code Review?\nCode Review is a software quality assurance activity in which one or several humans check a program mainly by viewing and reading parts of its source code, and they do so after implementation or as an interruption of implementation. (Wikipedia)\nCode reviews are usually performed to reach a combination of goals:", nameImage: "bookCode"),
+            IntroPageVC.instantiate(message: "Finding defects", nameImage: "findBug"),
+            IntroPageVC.instantiate(message: "Better code quality", nameImage: "codeQuality"),
+            IntroPageVC.instantiate(message: "Learning/Knowledge transfer", nameImage: "knowledgeTransfer"),
+            IntroPageVC.instantiate(message: "Increase sense of mutual responsibility", nameImage: "mutualResponsibility"),
+            IntroPageVC.instantiate(message: "Complying to QA guidelines", nameImage: "qualityAssurance")
         ]
     }()
     

@@ -82,24 +82,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JoD-nl-2mX">
-                                <rect key="frame" x="15" y="40" width="345" height="607"/>
-                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="JoD-nl-2mX">
+                                <rect key="frame" x="15" y="50" width="345" height="290"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="25"/>
                                 <color key="textColor" red="0.0" green="0.40000000000000002" blue="0.59607843140000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bookCode" translatesAutoresizingMaskIntoConstraints="NO" id="uEf-Js-XGE">
+                                <rect key="frame" x="20" y="360" width="335" height="267"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="uEf-Js-XGE" firstAttribute="height" secondItem="ceS-oI-BLB" secondAttribute="height" multiplier="0.4" id="0Vd-mG-KSX"/>
                             <constraint firstItem="YJE-g5-dv6" firstAttribute="trailing" secondItem="JoD-nl-2mX" secondAttribute="trailing" constant="15" id="1ed-sb-O2t"/>
-                            <constraint firstItem="YJE-g5-dv6" firstAttribute="bottom" secondItem="JoD-nl-2mX" secondAttribute="bottom" constant="20" id="5eA-Mv-amJ"/>
-                            <constraint firstItem="JoD-nl-2mX" firstAttribute="top" secondItem="YJE-g5-dv6" secondAttribute="top" constant="20" id="FS6-SJ-FRU"/>
                             <constraint firstItem="JoD-nl-2mX" firstAttribute="leading" secondItem="YJE-g5-dv6" secondAttribute="leading" constant="15" id="Ltu-2K-ksQ"/>
-                            <constraint firstItem="JoD-nl-2mX" firstAttribute="top" secondItem="YJE-g5-dv6" secondAttribute="top" constant="20" id="Vlw-XS-gOr"/>
+                            <constraint firstItem="YJE-g5-dv6" firstAttribute="bottom" secondItem="uEf-Js-XGE" secondAttribute="bottom" constant="40" id="Ol9-tK-e22"/>
+                            <constraint firstItem="JoD-nl-2mX" firstAttribute="top" secondItem="YJE-g5-dv6" secondAttribute="top" constant="30" id="Vlw-XS-gOr"/>
+                            <constraint firstItem="uEf-Js-XGE" firstAttribute="top" secondItem="JoD-nl-2mX" secondAttribute="bottom" constant="20" id="lpe-iE-fKK"/>
+                            <constraint firstItem="uEf-Js-XGE" firstAttribute="leading" secondItem="YJE-g5-dv6" secondAttribute="leading" constant="20" id="z9v-X5-Dka"/>
+                            <constraint firstItem="YJE-g5-dv6" firstAttribute="trailing" secondItem="uEf-Js-XGE" secondAttribute="trailing" constant="20" id="zqL-P0-dm4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="YJE-g5-dv6"/>
                     </view>
                     <connections>
+                        <outlet property="imageView" destination="uEf-Js-XGE" id="8lc-GW-g2r"/>
                         <outlet property="labelMessage" destination="JoD-nl-2mX" id="dhX-O6-Pbb"/>
                     </connections>
                 </viewController>
@@ -108,4 +115,7 @@
             <point key="canvasLocation" x="1455" y="96"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bookCode" width="491.51998901367188" height="249.60000610351562"/>
+    </resources>
 </document>
