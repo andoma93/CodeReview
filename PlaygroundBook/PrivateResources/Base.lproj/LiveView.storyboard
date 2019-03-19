@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fcD-sv-Xiz">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Book Sources Live View Controller-->
+        <scene sceneID="HVS-ZB-wEb">
+            <objects>
+                <viewController id="fcD-sv-Xiz" customClass="Book_Sources_LiveViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rh2-0a-zph">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Code Review" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h6a-7e-CMz">
+                                <rect key="frame" x="40" y="303" width="295" height="61"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="56"/>
+                                <color key="textColor" red="0.0" green="0.40000000000000002" blue="0.59607843140000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="apl-de-0g2">
+                                <rect key="frame" x="135" y="232" width="105" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@Mario Monaco for 2019 WWDC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jwx-sY-MHB">
+                                <rect key="frame" x="10" y="484" width="355" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.40000000000000002" blue="0.59607843140000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ready to start? Move to the second page!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FEe-H0-sXX">
+                                <rect key="frame" x="15" y="404" width="345" height="40"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.40000000000000002" blue="0.59607843140000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="h6a-7e-CMz" firstAttribute="leading" secondItem="qaR-nP-dw0" secondAttribute="leading" constant="40" id="6rE-xg-QbC"/>
+                            <constraint firstItem="qaR-nP-dw0" firstAttribute="trailing" secondItem="jwx-sY-MHB" secondAttribute="trailing" constant="10" id="76d-Wn-B7e"/>
+                            <constraint firstItem="jwx-sY-MHB" firstAttribute="leading" secondItem="qaR-nP-dw0" secondAttribute="leading" constant="10" id="7Ne-YU-gcI"/>
+                            <constraint firstItem="FEe-H0-sXX" firstAttribute="leading" secondItem="qaR-nP-dw0" secondAttribute="leading" constant="15" id="7u7-qG-X6A"/>
+                            <constraint firstItem="h6a-7e-CMz" firstAttribute="centerX" secondItem="Rh2-0a-zph" secondAttribute="centerX" id="DgE-dK-YaV"/>
+                            <constraint firstItem="h6a-7e-CMz" firstAttribute="top" secondItem="apl-de-0g2" secondAttribute="bottom" constant="50" id="FSm-VV-IR7"/>
+                            <constraint firstItem="jwx-sY-MHB" firstAttribute="top" secondItem="FEe-H0-sXX" secondAttribute="bottom" constant="40" id="SIq-sO-tC1"/>
+                            <constraint firstItem="h6a-7e-CMz" firstAttribute="centerX" secondItem="qaR-nP-dw0" secondAttribute="centerX" id="YUR-62-nvX"/>
+                            <constraint firstItem="qaR-nP-dw0" firstAttribute="trailing" secondItem="h6a-7e-CMz" secondAttribute="trailing" constant="40" id="aK7-kr-gJ5"/>
+                            <constraint firstItem="FEe-H0-sXX" firstAttribute="top" secondItem="h6a-7e-CMz" secondAttribute="bottom" constant="40" id="b30-wH-DL1"/>
+                            <constraint firstItem="apl-de-0g2" firstAttribute="centerX" secondItem="qaR-nP-dw0" secondAttribute="centerX" id="cKC-x9-tV4"/>
+                            <constraint firstItem="qaR-nP-dw0" firstAttribute="trailing" secondItem="FEe-H0-sXX" secondAttribute="trailing" constant="15" id="qqb-QC-BJl"/>
+                            <constraint firstItem="h6a-7e-CMz" firstAttribute="centerY" secondItem="Rh2-0a-zph" secondAttribute="centerY" id="rsb-9d-7m1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qaR-nP-dw0"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uvi-wC-fap" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-247" y="96"/>
+        </scene>
+        <!--Book Sources IntroVC-->
+        <scene sceneID="8Fp-ev-x1c">
+            <objects>
+                <pageViewController storyboardIdentifier="introIdentifier" autoresizesArchivedViewToFullSize="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="2Ee-zR-lG9" customClass="Book_Sources_IntroVC" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jgj-R2-Aao" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="591" y="96"/>
+        </scene>
+        <!--Intro PageVC-->
+        <scene sceneID="Ghf-jK-Cvi">
+            <objects>
+                <viewController storyboardIdentifier="introPageVCIdentifier" id="qwy-9C-BdU" customClass="IntroPageVC" customModule="Book_Sources" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ceS-oI-BLB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JoD-nl-2mX">
+                                <rect key="frame" x="15" y="40" width="345" height="607"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.40000000000000002" blue="0.59607843140000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="YJE-g5-dv6" firstAttribute="trailing" secondItem="JoD-nl-2mX" secondAttribute="trailing" constant="15" id="1ed-sb-O2t"/>
+                            <constraint firstItem="YJE-g5-dv6" firstAttribute="bottom" secondItem="JoD-nl-2mX" secondAttribute="bottom" constant="20" id="5eA-Mv-amJ"/>
+                            <constraint firstItem="JoD-nl-2mX" firstAttribute="top" secondItem="YJE-g5-dv6" secondAttribute="top" constant="20" id="FS6-SJ-FRU"/>
+                            <constraint firstItem="JoD-nl-2mX" firstAttribute="leading" secondItem="YJE-g5-dv6" secondAttribute="leading" constant="15" id="Ltu-2K-ksQ"/>
+                            <constraint firstItem="JoD-nl-2mX" firstAttribute="top" secondItem="YJE-g5-dv6" secondAttribute="top" constant="20" id="Vlw-XS-gOr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="YJE-g5-dv6"/>
+                    </view>
+                    <connections>
+                        <outlet property="labelMessage" destination="JoD-nl-2mX" id="dhX-O6-Pbb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D1B-cW-qgR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1455" y="96"/>
+        </scene>
+    </scenes>
+</document>
