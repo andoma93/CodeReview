@@ -32,17 +32,12 @@ public func instantiateIntro() -> PlaygroundLiveViewable {
     let storyboard = UIStoryboard(name: "LiveView", bundle: nil)
     let viewController = storyboard.instantiateViewController(withIdentifier: "introIdentifier")
     guard let liveViewController = viewController as? IntroVC else {
-        fatalError("LiveView.storyboard's initial scene is not a LiveViewController; please either update the storyboard or this function")
+        fatalError("LiveView.storyboard's initial scene is not a IntroVC; please either update the storyboard or this function")
     }
     return liveViewController
 }
 
-public func instantiateHelloWorld() -> PlaygroundLiveViewable {
-    let storyboard = UIStoryboard(name: "Exercises", bundle: nil)
-    let viewController = storyboard.instantiateViewController(withIdentifier: "helloWorldIdentifier")
-    guard let liveViewController = viewController as? HelloWorldVC else {
-        fatalError("LiveView.storyboard's initial scene is not a HelloWorldVC; please either update the storyboard or this function")
-    }
-    return liveViewController
+public func instantiateExercise() -> PlaygroundLiveViewable {
+    return IntroPageVC.instantiate(message: "Follow the left exercise\n⬅️⬅️⬅️")
 }
 

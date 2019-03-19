@@ -4,10 +4,12 @@
  - Note: Mario has pushed this fantastic function in the common repository. Maybe there is something wrong, try to check and fix his code!
  
  */
-func helloWorld(name: /*#-editable-code*/String?/*#-end-editable-code*/){
+//#-editable-code
+func helloWorld(name: String?){
     //parameter name is never nil
-    print("Hello \(/*#-editable-code*/name!/*#-end-editable-code*/)!")
+    print("Hello \(name!)!")
 }
+//#-end-editable-code
 
 //#-hidden-code
 import PlaygroundSupport
@@ -16,7 +18,6 @@ import Foundation
 public func findUserCodeInputs(from input: String) -> [String] {
     var inputs: [String] = []
     let scanner = Scanner(string: input)
-    
     while scanner.scanUpTo("//#-editable-code", into: nil) {
         var userInput: NSString? = ""
         scanner.scanUpTo("\n", into: nil)
@@ -26,17 +27,17 @@ public func findUserCodeInputs(from input: String) -> [String] {
             inputs.append(String(userInput!))
         }
     }
-    
     return inputs
 }
 
 public func makeAssessment(of input: String) {
     let codeInputs = findUserCodeInputs(from: input)
-    if codeInputs[0] != "String"{
-        PlaygroundPage.current.assessmentStatus = .fail(hints: ["Try again 🧐"], solution: "Check the method parameters and its optional value 🤓")
+    print(codeInputs)
+    if codeInputs[0].contains("String?"){
+        PlaygroundPage.current.assessmentStatus = .fail(hints: ["Try again 🧐"], solution: "\(codeInputs[0])")
         return
     }
-    if codeInputs[1] != "String"{
+    if codeInputs[2].contains("name!"){
         PlaygroundPage.current.assessmentStatus = .fail(hints: ["Try again 🧐"], solution: "Check the method printing 🤓")
         return
     }
