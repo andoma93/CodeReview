@@ -14,7 +14,7 @@ public class IntroPageVC: UIViewController, PlaygroundLiveViewMessageHandler, Pl
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var labelMessage: UILabel!
     private var message : String!
-    private var image : UIImage!
+    private var image : UIImage?
     
     /*
      public func liveViewMessageConnectionOpened() {
@@ -34,13 +34,19 @@ public class IntroPageVC: UIViewController, PlaygroundLiveViewMessageHandler, Pl
     public override func viewDidLoad() {
         super.viewDidLoad()
         self.labelMessage.text = message
-        self.imageView.image = image
+        if let image = image{
+            self.imageView.image = image
+        }else{
+            self.imageView.removeFromSuperview()
+        }
     }
     
-    class func instantiate(message: String, nameImage: String) -> IntroPageVC{
+    class func instantiate(message: String, nameImage: String? = nil) -> IntroPageVC{
         let vc = UIStoryboard(name: "LiveView", bundle: nil).instantiateViewController(withIdentifier: "introPageVCIdentifier") as! IntroPageVC
         vc.message = message
-        vc.image = UIImage(named: nameImage)
+        if let nameImage = nameImage{
+            vc.image = UIImage(named: nameImage)
+        }
         return vc
     }
     

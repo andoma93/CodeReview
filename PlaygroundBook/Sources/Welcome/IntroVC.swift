@@ -21,7 +21,8 @@ public class IntroVC: UIPageViewController, PlaygroundLiveViewMessageHandler, Pl
             IntroPageVC.instantiate(message: "Better code quality", nameImage: "codeQuality"),
             IntroPageVC.instantiate(message: "Learning/Knowledge transfer", nameImage: "knowledgeTransfer"),
             IntroPageVC.instantiate(message: "Increase sense of mutual responsibility", nameImage: "mutualResponsibility"),
-            IntroPageVC.instantiate(message: "Complying to QA guidelines", nameImage: "qualityAssurance")
+            IntroPageVC.instantiate(message: "Complying to QA guidelines", nameImage: "qualityAssurance"),
+            IntroPageVC.instantiate(message: "Let's start!\n\nGo to the next chapter")
         ]
     }()
     
