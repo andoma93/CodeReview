@@ -47,8 +47,8 @@
 	</array>
 	<key>displayedAttributes</key>
 	<array>
-		<string>kPropertiesMenuItemIdentifierPosition</string>
 		<string>kPropertiesMenuItemIdentifierOpacity</string>
+		<string>kPropertiesMenuItemIdentifierPosition</string>
 		<string>kPropertiesMenuItemIdentifierAnimated</string>
 	</array>
 	<key>documentVersion</key>
@@ -74,7 +74,7 @@
 	<key>hasManuallyChangedCSSPositioning</key>
 	<false/>
 	<key>lastCheckDate</key>
-	<date>2019-03-21T19:17:02Z</date>
+	<date>2019-03-21T22:02:23Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -82,9 +82,9 @@
 		<key>customizableLayout</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0, 0}, {1440, 726}}</string>
+			<string>{{0, 0}, {1440, 748}}</string>
 			<key>identifier</key>
-			<string>container 27</string>
+			<string>container 108</string>
 			<key>isCustomizableViewContainer</key>
 			<true/>
 			<key>isCustomizableViewWrapper</key>
@@ -95,32 +95,9 @@
 			<array>
 				<dict>
 					<key>frame</key>
-					<string>{{0, 0}, {135, 726}}</string>
+					<string>{{0, 0}, {1169, 748}}</string>
 					<key>identifier</key>
-					<string>container 35</string>
-					<key>isCustomizableViewContainer</key>
-					<true/>
-					<key>isCustomizableViewWrapper</key>
-					<true/>
-					<key>isVertical</key>
-					<true/>
-					<key>subviews</key>
-					<array>
-						<dict>
-							<key>frame</key>
-							<string>{{0, 0}, {135, 726}}</string>
-							<key>identifier</key>
-							<string>sceneSelectorCustomizableContainer</string>
-							<key>isCustomizableViewContainer</key>
-							<false/>
-						</dict>
-					</array>
-				</dict>
-				<dict>
-					<key>frame</key>
-					<string>{{136, 0}, {1304, 726}}</string>
-					<key>identifier</key>
-					<string>container 36</string>
+					<string>container 425</string>
 					<key>isCustomizableViewContainer</key>
 					<true/>
 					<key>isCustomizableViewWrapper</key>
@@ -131,22 +108,22 @@
 					<array>
 						<dict>
 							<key>frame</key>
-							<string>{{136, 0}, {1033, 726}}</string>
+							<string>{{0, 0}, {898, 748}}</string>
 							<key>identifier</key>
-							<string>container 5</string>
+							<string>container 40</string>
 							<key>isCustomizableViewContainer</key>
 							<true/>
 							<key>isCustomizableViewWrapper</key>
 							<false/>
 							<key>isVertical</key>
-							<false/>
+							<true/>
 							<key>subviews</key>
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{136, 0}, {1033, 285}}</string>
+									<string>{{0, 0}, {135, 748}}</string>
 									<key>identifier</key>
-									<string>container 4</string>
+									<string>container 30</string>
 									<key>isCustomizableViewContainer</key>
 									<true/>
 									<key>isCustomizableViewWrapper</key>
@@ -157,9 +134,9 @@
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 0}, {1033, 285}}</string>
+											<string>{{0, 0}, {135, 748}}</string>
 											<key>identifier</key>
-											<string>timelineCustomizableContainer</string>
+											<string>sceneSelectorCustomizableContainer</string>
 											<key>isCustomizableViewContainer</key>
 											<false/>
 										</dict>
@@ -167,24 +144,62 @@
 								</dict>
 								<dict>
 									<key>frame</key>
-									<string>{{136, 286}, {1033, 440}}</string>
+									<string>{{136, 0}, {762, 748}}</string>
 									<key>identifier</key>
-									<string>container 3</string>
+									<string>container 31</string>
 									<key>isCustomizableViewContainer</key>
 									<true/>
 									<key>isCustomizableViewWrapper</key>
-									<true/>
+									<false/>
 									<key>isVertical</key>
-									<true/>
+									<false/>
 									<key>subviews</key>
 									<array>
 										<dict>
 											<key>frame</key>
-											<string>{{136, 286}, {1033, 440}}</string>
+											<string>{{136, 0}, {762, 307}}</string>
 											<key>identifier</key>
-											<string>sceneEditorCustomizableContainer</string>
+											<string>container 4</string>
 											<key>isCustomizableViewContainer</key>
-											<false/>
+											<true/>
+											<key>isCustomizableViewWrapper</key>
+											<true/>
+											<key>isVertical</key>
+											<true/>
+											<key>subviews</key>
+											<array>
+												<dict>
+													<key>frame</key>
+													<string>{{136, 0}, {762, 307}}</string>
+													<key>identifier</key>
+													<string>timelineCustomizableContainer</string>
+													<key>isCustomizableViewContainer</key>
+													<false/>
+												</dict>
+											</array>
+										</dict>
+										<dict>
+											<key>frame</key>
+											<string>{{136, 308}, {762, 440}}</string>
+											<key>identifier</key>
+											<string>container 3</string>
+											<key>isCustomizableViewContainer</key>
+											<true/>
+											<key>isCustomizableViewWrapper</key>
+											<true/>
+											<key>isVertical</key>
+											<true/>
+											<key>subviews</key>
+											<array>
+												<dict>
+													<key>frame</key>
+													<string>{{136, 308}, {762, 440}}</string>
+													<key>identifier</key>
+													<string>sceneEditorCustomizableContainer</string>
+													<key>isCustomizableViewContainer</key>
+													<false/>
+												</dict>
+											</array>
 										</dict>
 									</array>
 								</dict>
@@ -192,9 +207,9 @@
 						</dict>
 						<dict>
 							<key>frame</key>
-							<string>{{1170, 0}, {270, 726}}</string>
+							<string>{{899, 0}, {270, 748}}</string>
 							<key>identifier</key>
-							<string>container 6</string>
+							<string>container 39</string>
 							<key>isCustomizableViewContainer</key>
 							<true/>
 							<key>isCustomizableViewWrapper</key>
@@ -205,13 +220,36 @@
 							<array>
 								<dict>
 									<key>frame</key>
-									<string>{{1170, 0}, {270, 726}}</string>
+									<string>{{899, 0}, {270, 748}}</string>
 									<key>identifier</key>
 									<string>inspectorCustomizableContainer</string>
 									<key>isCustomizableViewContainer</key>
 									<false/>
 								</dict>
 							</array>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>frame</key>
+					<string>{{1170, 0}, {270, 748}}</string>
+					<key>identifier</key>
+					<string>container 424</string>
+					<key>isCustomizableViewContainer</key>
+					<true/>
+					<key>isCustomizableViewWrapper</key>
+					<true/>
+					<key>isVertical</key>
+					<true/>
+					<key>subviews</key>
+					<array>
+						<dict>
+							<key>frame</key>
+							<string>{{1170, 0}, {270, 748}}</string>
+							<key>identifier</key>
+							<string>resourcesCustomizableContainer</string>
+							<key>isCustomizableViewContainer</key>
+							<false/>
 						</dict>
 					</array>
 				</dict>
@@ -222,20 +260,13 @@
 		<key>mainWindowFrame</key>
 		<string>0 107 1440 770 0 0 1440 877 </string>
 		<key>openTabs</key>
-		<array>
-			<dict>
-				<key>className</key>
-				<string>HypeJavascript</string>
-				<key>oid</key>
-				<string>12</string>
-			</dict>
-		</array>
+		<array/>
 		<key>selectedTabIndex</key>
 		<integer>0</integer>
 		<key>showInspectorView</key>
 		<true/>
 		<key>showResourcesView</key>
-		<false/>
+		<true/>
 		<key>showSceneSelectorView</key>
 		<true/>
 		<key>showSceneVariantSelectorView</key>
@@ -271,7 +302,7 @@
 	<key>monotypeProjectID</key>
 	<string>4F626D2F-F1A8-445B-A2EF-90CA11FC2D6D-7496-0000CF0FC7E4FBD8</string>
 	<key>oidCounter</key>
-	<integer>12</integer>
+	<integer>18</integer>
 	<key>resourcesInfo</key>
 	<dict>
 		<key>groups</key>
@@ -286,6 +317,18 @@
 				<key>resources</key>
 				<array>
 					<string>Pasted.png</string>
+				</array>
+			</dict>
+			<dict>
+				<key>expanded</key>
+				<true/>
+				<key>name</key>
+				<string>code_review</string>
+				<key>oid</key>
+				<string>13</string>
+				<key>resources</key>
+				<array>
+					<string>code_review.png</string>
 				</array>
 			</dict>
 		</array>
@@ -311,6 +354,55 @@
 				<key>type</key>
 				<string>FileResource</string>
 			</dict>
+			<dict>
+				<key>fileModificationDate</key>
+				<date>2019-03-21T19:15:15Z</date>
+				<key>fileSize</key>
+				<integer>1206908</integer>
+				<key>md5</key>
+				<string>5A013772DE34F9BFD545E3FF7AC2FE7F</string>
+				<key>notifyOnBookmarkChange</key>
+				<true/>
+				<key>originalPath</key>
+				<string>/Users/mariomonaco/.Trash/code_review.png</string>
+				<key>resourceName</key>
+				<string>code_review.png</string>
+				<key>securityScopedBookmark</key>
+				<data>
+				Ym9va8ACAAAAAAQQMAAAAFna6eDCTXoaunbO/O70taZ5
+				9SgqwZVRrn84rU/5sQ7vvAEAAAQAAAADAwAAAAkAKAUA
+				AAABAQAAVXNlcnMAAAALAAAAAQEAAG1hcmlvbW9uYWNv
+				AAYAAAABAQAALlRyYXNoAAAPAAAAAQEAAGNvZGVfcmV2
+				aWV3LnBuZwAQAAAAAQYAABAAAAAgAAAANAAAAEQAAAAI
+				AAAABAMAADXSCQAAAAAACAAAAAQDAABwHkAAAAAAAAgA
+				AAAEAwAARTUaAwAAAAAIAAAABAMAAOBwLgMAAAAAEAAA
+				AAEGAAB0AAAAhAAAAJQAAACkAAAACAAAAAAEAABBwSIN
+				Ib1SKhgAAAABAgAAAQAAAAAAAAAPAAAAAAAAAAAAAAAA
+				AAAACAAAAAQDAAACAAAAAAAAAAQAAAADAwAA9gEAAAgA
+				AAABCQAAZmlsZTovLy8LAAAAAQEAAEhpZ2ggU2llcnJh
+				AAgAAAAEAwAAAPBB6egAAAAIAAAAAAQAAEHATaA7JSpR
+				JAAAAAEBAABEMEJDOEJENC01NDI1LTQwRTYtQTFGNi03
+				MzI3RTlFMDM5QTIYAAAAAQIAAIEAAAABAAAA7xMAAAEA
+				AAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAAzAAA
+				AP7///8BAAAAAAAAABAAAAAEEAAAXAAAAAAAAAAFEAAA
+				tAAAAAAAAAAQEAAA3AAAAAAAAABAEAAAzAAAAAAAAAAC
+				IAAAqAEAAAAAAAAFIAAAGAEAAAAAAAAQIAAAKAEAAAAA
+				AAARIAAAXAEAAAAAAAASIAAAPAEAAAAAAAATIAAATAEA
+				AAAAAAAgIAAAiAEAAAAAAAAwIAAAtAEAAAAAAAABwAAA
+				/AAAAAAAAAARwAAAIAAAAAAAAAASwAAADAEAAAAAAAAQ
+				0AAABAAAAAAAAAA=
+				</data>
+				<key>shouldAutoResize</key>
+				<true/>
+				<key>shouldIncludeInDocumentHeadHTML</key>
+				<false/>
+				<key>shouldPreload</key>
+				<true/>
+				<key>shouldRemoveWhenNoLongerReferenced</key>
+				<true/>
+				<key>type</key>
+				<string>FileResource</string>
+			</dict>
 		</array>
 	</dict>
 	<key>sceneContainers</key>
@@ -319,7 +411,7 @@
 			<key>currentSceneOid</key>
 			<string>3</string>
 			<key>name</key>
-			<string>Scena senza titolo</string>
+			<string>Welcome</string>
 			<key>oid</key>
 			<string>1</string>
 			<key>scenes</key>
@@ -338,11 +430,11 @@
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{1033, 440}</string>
+					<string>{762, 440}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
-						<string>#F5FFEF</string>
+						<string>#F9FFF6</string>
 						<key>breakpointWidth</key>
 						<real>600</real>
 						<key>name</key>
@@ -402,7 +494,7 @@ function goNext(hypeDocument, element, event) {
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>1133690D-B849-4244-B104-F06A217708D4-7496-0000CE29BB5E9C24</string>
+			<string>58785CB8-2E6D-4175-B52E-8E805B9DD559-10408-0000D22390C1210B</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -421,7 +513,7 @@ function goNext(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>FontFamily</string>
 							<key>objectValue</key>
-							<string>Helvetica,Arial,Sans-Serif</string>
+							<string>Helvetica-Light,'Helvetica Light',Helvetica,Arial,Sans-Serif</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -511,25 +603,25 @@ function goNext(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>5</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>223px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingLeft</string>
-							<key>objectValue</key>
-							<string>8px</string>
+							<string>6</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>DisplayHiddenOverride</string>
 							<key>objectValue</key>
 							<string>0</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>222px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingLeft</string>
+							<key>objectValue</key>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -562,6 +654,135 @@ function goNext(hypeDocument, element, event) {
 							<string>#000000</string>
 						</dict>
 					</array>
+					<key>14</key>
+					<array>
+						<dict>
+							<key>identifier</key>
+							<string>OriginalWidth</string>
+							<key>objectValue</key>
+							<string>1600px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ExplicitDimensions</string>
+							<key>objectValue</key>
+							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ConstrainProportions</string>
+							<key>objectValue</key>
+							<string>YES</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Display</string>
+							<key>objectValue</key>
+							<string>inline</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Opacity</string>
+							<key>objectValue</key>
+							<string>0.4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ClassType</string>
+							<key>objectValue</key>
+							<string>Image</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Top</string>
+							<key>objectValue</key>
+							<string>28px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BackgroundRepeat</string>
+							<key>objectValue</key>
+							<string>no-repeat</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Position</string>
+							<key>objectValue</key>
+							<string>absolute</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Height</string>
+							<key>objectValue</key>
+							<string>339px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BackgroundImageResourceGroupOid</string>
+							<key>objectValue</key>
+							<string>13</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Left</string>
+							<key>objectValue</key>
+							<string>-2px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>SizeRatio</string>
+							<key>objectValue</key>
+							<string>1.77778</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>AccessibilityRole</string>
+							<key>objectValue</key>
+							<string>img</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>1</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>603px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BackgroundSize</string>
+							<key>objectValue</key>
+							<string>100% 100%</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Overflow</string>
+							<key>objectValue</key>
+							<string>visible</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayName</string>
+							<key>objectValue</key>
+							<string>code_review</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>OriginalHeight</string>
+							<key>objectValue</key>
+							<string>900px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>TagName</string>
+							<key>objectValue</key>
+							<string>div</string>
+						</dict>
+					</array>
 					<key>5</key>
 					<array>
 						<dict>
@@ -586,7 +807,7 @@ function goNext(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>FontSize</string>
 							<key>objectValue</key>
-							<string>18px</string>
+							<string>24px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -622,7 +843,7 @@ function goNext(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>49px</string>
+							<string>48px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -652,7 +873,7 @@ function goNext(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>242px</string>
+							<string>239px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -662,21 +883,21 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>PaddingLeft</string>
+							<key>objectValue</key>
+							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>1</string>
+							<string>2</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
-							<string>100px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>PaddingLeft</string>
-							<key>objectValue</key>
-							<string>8px</string>
+							<string>138px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -721,7 +942,7 @@ function goNext(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>FontFamily</string>
 							<key>objectValue</key>
-							<string>Helvetica,Arial,Sans-Serif</string>
+							<string>Helvetica-Light,'Helvetica Light',Helvetica,Arial,Sans-Serif</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -739,7 +960,7 @@ function goNext(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>FontSize</string>
 							<key>objectValue</key>
-							<string>64px</string>
+							<string>72px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -769,7 +990,7 @@ function goNext(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>131px</string>
+							<string>140px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -799,25 +1020,13 @@ function goNext(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>-518px</string>
+							<string>-539px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>InnerHTML</string>
 							<key>objectValue</key>
 							<string>Code Review</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>2</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>383px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -830,6 +1039,18 @@ function goNext(hypeDocument, element, event) {
 							<string>DisplayHiddenOverride</string>
 							<key>objectValue</key>
 							<string>0</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>3</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>429px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -898,7 +1119,7 @@ function goNext(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>113px</string>
+							<string>131px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -928,7 +1149,7 @@ function goNext(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>-657px</string>
+							<string>-666px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -946,7 +1167,13 @@ function goNext(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>3</string>
+							<string>4</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>DisplayHiddenOverride</string>
+							<key>objectValue</key>
+							<string>0</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -956,7 +1183,7 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>DisplayHiddenOverride</string>
+							<string>Locked</string>
 							<key>objectValue</key>
 							<string>0</string>
 						</dict>
@@ -971,12 +1198,6 @@ function goNext(hypeDocument, element, event) {
 							<string>Overflow</string>
 							<key>objectValue</key>
 							<string>visible</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Locked</string>
-							<key>objectValue</key>
-							<string>0</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1019,12 +1240,6 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthBottom</string>
-							<key>objectValue</key>
-							<string>1px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ShowButtonEditor</string>
 							<key>objectValue</key>
 							<string>1</string>
@@ -1037,21 +1252,27 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>BorderWidthBottom</string>
+							<key>objectValue</key>
+							<string>1px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>BackgroundColor</string>
 							<key>objectValue</key>
 							<string>#F0F0F0</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>BorderWidthRight</string>
-							<key>objectValue</key>
-							<string>1px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>Opacity</string>
 							<key>objectValue</key>
 							<string>0</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>BorderWidthRight</string>
+							<key>objectValue</key>
+							<string>1px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1141,7 +1362,7 @@ function goNext(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>4</string>
+							<string>5</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1227,6 +1448,12 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
+							<string>FontFamily</string>
+							<key>objectValue</key>
+							<string>Helvetica-Light,'Helvetica Light',Helvetica,Arial,Sans-Serif</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
 							<string>248px</string>
@@ -1293,6 +1520,61 @@ function goNext(hypeDocument, element, event) {
 				<string>Simbolo scena</string>
 				<key>oid</key>
 				<string>2</string>
+				<key>onSceneDragActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneKeyDownActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneKeyPressActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneKeyUpActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneLoadActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneSwipeDownActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneSwipeLeftActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneSwipeRightActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneSwipeUpActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneTimelineCompleteActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
+				<key>onSceneUnloadActionHandler</key>
+				<dict>
+					<key>actions</key>
+					<array/>
+				</dict>
 				<key>onTopDuringSceneTransition</key>
 				<true/>
 				<key>properties</key>
@@ -1359,7 +1641,7 @@ function goNext(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>115px</string>
+									<string>124px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -1374,7 +1656,7 @@ function goNext(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>131px</string>
+									<string>140px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -1395,7 +1677,7 @@ function goNext(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>170px</string>
+									<string>149px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
@@ -1410,7 +1692,7 @@ function goNext(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>-518px</string>
+									<string>-539px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -1431,7 +1713,7 @@ function goNext(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>97px</string>
+									<string>115px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Top</string>
@@ -1446,7 +1728,7 @@ function goNext(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Top</string>
 									<key>objectValue</key>
-									<string>113px</string>
+									<string>131px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -1457,7 +1739,7 @@ function goNext(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>048344EC-D252-491E-B7FE-223AC54E4FD7-7496-0000CFD6F31E7388</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -1467,7 +1749,7 @@ function goNext(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>31px</string>
+									<string>22px</string>
 								</dict>
 								<key>identifier</key>
 								<string>Left</string>
@@ -1482,7 +1764,7 @@ function goNext(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>-657px</string>
+									<string>-666px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -1493,7 +1775,7 @@ function goNext(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>0753891C-CAE1-4DD7-8385-7E1ABCFAEF9D-7496-0000CFD6E9A4892E</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -1540,7 +1822,7 @@ function goNext(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>242px</string>
+									<string>239px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -1551,7 +1833,7 @@ function goNext(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>59ECC1DD-773F-47B7-BD61-FBB2AE76D978-7496-0000CFA00AB1D3A8</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>3</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -1562,6 +1844,64 @@ function goNext(hypeDocument, element, event) {
 								<false/>
 								<key>referenceOid</key>
 								<string>6</string>
+								<key>startTime</key>
+								<real>1.5666666030883789</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Top</string>
+									<key>objectValue</key>
+									<string>124px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>DE6D36CE-D464-46F8-96FE-49C9FBA38DA2-7496-0000CFD6F33314CE</string>
+								<key>zIndex</key>
+								<integer>3</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>Left</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>6</string>
+								<key>startTime</key>
+								<real>1.5666666030883789</real>
+								<key>startValue</key>
+								<dict>
+									<key>identifier</key>
+									<string>Left</string>
+									<key>objectValue</key>
+									<string>149px</string>
+								</dict>
+								<key>symbolElementActionAttributesBySymbolTimeline</key>
+								<dict/>
+								<key>timingFunctionOid</key>
+								<string>c</string>
+								<key>type</key>
+								<integer>0</integer>
+								<key>uuid</key>
+								<string>C7BE0DEB-6BB7-44A2-A4F9-68DEE78F42E3-7496-0000CFD6E9C417BE</string>
+								<key>zIndex</key>
+								<integer>4</integer>
+							</dict>
+							<dict>
+								<key>duration</key>
+								<real>0.0</real>
+								<key>identifier</key>
+								<string>Top</string>
+								<key>isRelative</key>
+								<false/>
+								<key>referenceOid</key>
+								<string>8</string>
 								<key>startTime</key>
 								<real>1.5666666030883789</real>
 								<key>startValue</key>
@@ -1578,67 +1918,9 @@ function goNext(hypeDocument, element, event) {
 								<key>type</key>
 								<integer>0</integer>
 								<key>uuid</key>
-								<string>DE6D36CE-D464-46F8-96FE-49C9FBA38DA2-7496-0000CFD6F33314CE</string>
-								<key>zIndex</key>
-								<integer>2</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>Left</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>6</string>
-								<key>startTime</key>
-								<real>1.5666666030883789</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Left</string>
-									<key>objectValue</key>
-									<string>170px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
-								<string>C7BE0DEB-6BB7-44A2-A4F9-68DEE78F42E3-7496-0000CFD6E9C417BE</string>
-								<key>zIndex</key>
-								<integer>2</integer>
-							</dict>
-							<dict>
-								<key>duration</key>
-								<real>0.0</real>
-								<key>identifier</key>
-								<string>Top</string>
-								<key>isRelative</key>
-								<false/>
-								<key>referenceOid</key>
-								<string>8</string>
-								<key>startTime</key>
-								<real>1.5666666030883789</real>
-								<key>startValue</key>
-								<dict>
-									<key>identifier</key>
-									<string>Top</string>
-									<key>objectValue</key>
-									<string>97px</string>
-								</dict>
-								<key>symbolElementActionAttributesBySymbolTimeline</key>
-								<dict/>
-								<key>timingFunctionOid</key>
-								<string>c</string>
-								<key>type</key>
-								<integer>0</integer>
-								<key>uuid</key>
 								<string>297F9F56-1C5E-4C1B-99F4-72560F6A9B59-7496-0000CFD6F32372B4</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>4</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -1656,7 +1938,7 @@ function goNext(hypeDocument, element, event) {
 									<key>identifier</key>
 									<string>Left</string>
 									<key>objectValue</key>
-									<string>31px</string>
+									<string>22px</string>
 								</dict>
 								<key>symbolElementActionAttributesBySymbolTimeline</key>
 								<dict/>
@@ -1667,7 +1949,7 @@ function goNext(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>340E03E9-7253-4B36-A4C5-C3CF7B6CE43E-7496-0000CFD6E9B015BF</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>5</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -1703,7 +1985,7 @@ function goNext(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>AEBB21F7-CB8D-42AC-909A-2259C4A68CC2-7496-0000D0036BF805E5</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>3</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -1739,7 +2021,7 @@ function goNext(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>26A67BAB-6D13-4983-94E7-42E651723F72-7496-0000D0036BB1857F</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>4</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -1768,7 +2050,7 @@ function goNext(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>0C52200B-90A3-4BED-965A-1B43780E68BC-7496-0000D0036C06E257</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>5</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -1797,7 +2079,7 @@ function goNext(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>CFCF0A48-25F6-4180-9B64-149D34C1276B-7496-0000D0036BD0A988</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>6</integer>
 							</dict>
 						</array>
 						<key>firstKeyframeIsRelative</key>
