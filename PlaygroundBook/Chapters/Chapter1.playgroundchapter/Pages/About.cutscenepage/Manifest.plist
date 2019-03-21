@@ -4,9 +4,7 @@
 <dict>
 	<key>Name</key>
 	<string>Welcome</string>
-	<key>LiveViewEdgeToEdge</key>
-	<true/>
-	<key>LiveViewMode</key>
-	<string>VisibleByDefault</string>
+	<key>CutsceneReference</key>
+	<string>CodeReviewHype.html</string>
 </dict>
 </plist>
