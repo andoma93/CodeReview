@@ -47,7 +47,7 @@ public func makeAssessment(of input: String) {
         PlaygroundPage.current.assessmentStatus = .fail(hints: ["Try again 🧐"], solution: "Try this code:\n'let message = isPositionCorrect ? 'Position Correct' : 'Position InCorrect'\n\n updateUI(message, isPositionCorrect)\n'")
         return
     }
-    PlaygroundPage.current.assessmentStatus = .pass(message: "Great job! Now continue with the next exercise")
+    PlaygroundPage.current.assessmentStatus = .pass(message: "✅✅✅ Great job! Now continue with the next exercise")
 }
 
 makeAssessment(of: PlaygroundPage.current.text)

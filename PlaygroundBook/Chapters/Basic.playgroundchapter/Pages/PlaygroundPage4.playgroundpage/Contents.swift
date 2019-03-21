@@ -38,11 +38,11 @@ public func findUserCodeInputs(from input: String) -> [String] {
 public func makeAssessment(of input: String) {
     let codeInputs = findUserCodeInputs(from: input)
     let currentCode = codeInputs[0]
-    if currentCode.contains("return items.contains(x)"){
+    if !currentCode.contains("return items.contains(x)"){
         PlaygroundPage.current.assessmentStatus = .fail(hints: ["Try again 🧐"], solution: "Try this code:\n'return items.contains(x)'")
         return
     }
-    PlaygroundPage.current.assessmentStatus = .pass(message: "Great job! Now continue with the next exercise")
+    PlaygroundPage.current.assessmentStatus = .pass(message: "✅✅✅ Great job! Now continue with the next exercise")
 }
 
 makeAssessment(of: PlaygroundPage.current.text)

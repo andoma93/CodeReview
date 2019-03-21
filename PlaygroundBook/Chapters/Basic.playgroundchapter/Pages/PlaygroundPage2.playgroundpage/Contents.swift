@@ -38,7 +38,7 @@ public func makeAssessment(of input: String) {
         PlaygroundPage.current.assessmentStatus = .fail(hints: ["Try again 🧐"], solution: "Remove the comments")
         return
     }
-    PlaygroundPage.current.assessmentStatus = .pass(message: "Great job! Now continue with the next exercise")
+    PlaygroundPage.current.assessmentStatus = .pass(message: "✅✅✅ Great job! Now continue with the next exercise")
 }
 
 makeAssessment(of: PlaygroundPage.current.text)

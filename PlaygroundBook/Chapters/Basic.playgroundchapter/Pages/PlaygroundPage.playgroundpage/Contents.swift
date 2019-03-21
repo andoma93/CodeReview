@@ -42,7 +42,7 @@ public func makeHelloWorldAssessment(of input: String) {
         PlaygroundPage.current.assessmentStatus = .fail(hints: ["Try again 🧐"], solution: "Check the method printing 🤓")
         return
     }
-    PlaygroundPage.current.assessmentStatus = .pass(message: "Great job! Now continue with the next exercise")
+    PlaygroundPage.current.assessmentStatus = .pass(message: "✅✅✅ Great job! Now continue with the next exercise")
 }
 
 makeHelloWorldAssessment(of: PlaygroundPage.current.text)
