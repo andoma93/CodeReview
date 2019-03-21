@@ -1,17 +1,18 @@
 /*:
- 4th Exercise: **Check Methods**
+ **Delegates implemented in extension**
  
-If your function returns boolean, just take a closer look and see if you can write it in a bitter way, because most of the times, it can be written in a simpler way.
+Make sure that code is readable and maintainable by ensuring that delegates are implemented in extensions.
  
- - Note: let's assume we have this function. Try to write the body of the method in a single line.
+ - Note: write 'delegateMethod' in an extension of the class 'Foo : Delegate'
 */
-
+//#-hidden-code
+protocol Delegate{
+    func delegateMethod()
+}
+//#-end-hidden-code
 //#-editable-code
-func isItemExist(x: Int, items: [Int]) -> Bool {
-    if items.contains(x) {
-        return true
-    }else{
-        return false
+class Foo : Delegate{
+    func delegateMethod (){
     }
 }
 //#-end-editable-code
@@ -38,11 +39,20 @@ public func findUserCodeInputs(from input: String) -> [String] {
 public func makeAssessment(of input: String) {
     let codeInputs = findUserCodeInputs(from: input)
     let currentCode = codeInputs[0]
-    if !currentCode.contains("return items.contains(x)"){
-        PlaygroundPage.current.assessmentStatus = .fail(hints: ["Try again 🧐"], solution: "Try this code:\n'return items.contains(x)'")
+    if !currentCode.contains("extension Foo"){
+        PlaygroundPage.current.assessmentStatus = .fail(hints: ["Try again 🧐"], solution:
+        """
+        class Foo {
+        }
+        extension Foo : Delegate {
+            func delegateMethod (){
+            }
+        }
+        """
+        )
         return
     }
-    PlaygroundPage.current.assessmentStatus = .pass(message: "✅✅✅ Great job! Now continue with the next exercise")
+    PlaygroundPage.current.assessmentStatus = .pass(message: "✅✅✅ Great job!")
 }
 
 makeAssessment(of: PlaygroundPage.current.text)
