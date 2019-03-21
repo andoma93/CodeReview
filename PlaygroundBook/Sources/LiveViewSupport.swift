@@ -38,6 +38,6 @@ public func instantiateIntro() -> PlaygroundLiveViewable {
 }
 
 public func instantiateExercise() -> PlaygroundLiveViewable {
-    return IntroPageVC.instantiate(message: "Follow the left exercise\n⬅️⬅️⬅️")
+    return IntroPageVC.instantiate(message: "Follow the exercise in the Playground Code View\n")
 }
 

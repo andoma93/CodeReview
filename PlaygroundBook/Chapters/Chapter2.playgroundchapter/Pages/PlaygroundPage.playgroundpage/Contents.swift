@@ -1,9 +1,11 @@
 /*:
- First Exercise: **Hello World**
+ First Exercise: **Bang or force unwrapping**
+ 
+ Always ask yourself isn’t there a better way of doing force unwrapping? Maybe a guard, optional chaining.
  
  - Note: Mario has pushed this fantastic function in the common repository. Maybe there is something wrong, try to check and fix his code!
  
- */
+*/
 //#-editable-code
 func helloWorld(name: String?){
     //parameter name is never nil
@@ -30,19 +32,18 @@ public func findUserCodeInputs(from input: String) -> [String] {
     return inputs
 }
 
-public func makeAssessment(of input: String) {
+public func makeHelloWorldAssessment(of input: String) {
     let codeInputs = findUserCodeInputs(from: input)
-    print(codeInputs)
     if codeInputs[0].contains("String?"){
-        PlaygroundPage.current.assessmentStatus = .fail(hints: ["Try again 🧐"], solution: "\(codeInputs[0])")
+        PlaygroundPage.current.assessmentStatus = .fail(hints: ["Try again 🧐"], solution: "Check the optional parameters")
         return
     }
     if codeInputs[2].contains("name!"){
         PlaygroundPage.current.assessmentStatus = .fail(hints: ["Try again 🧐"], solution: "Check the method printing 🤓")
         return
     }
-    PlaygroundPage.current.assessmentStatus = .pass(message: "Great job!")
+    PlaygroundPage.current.assessmentStatus = .pass(message: "Great job! Now continue with the next exercise")
 }
 
-makeAssessment(of: PlaygroundPage.current.text)
+makeHelloWorldAssessment(of: PlaygroundPage.current.text)
 //#-end-hidden-code
