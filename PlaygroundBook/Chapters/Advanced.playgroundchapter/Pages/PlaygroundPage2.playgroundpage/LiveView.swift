@@ -9,4 +9,4 @@ import UIKit
 import PlaygroundSupport
 
 // Instantiate a new instance of the live view from the book's auxiliary sources and pass it to PlaygroundSupport.
-PlaygroundPage.current.liveView = instantiateExercise()
+PlaygroundPage.current.liveView = instantiateAnimation(label: "If you have a chance to exit, run🏃🏼‍♂️!", gifName: "exit", color: UIColor.white, textColor: UIColor.lightGray)

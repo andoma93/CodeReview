@@ -130,6 +130,51 @@
             </objects>
             <point key="canvasLocation" x="2398" y="96"/>
         </scene>
+        <!--Animation Web View-->
+        <scene sceneID="JK6-iN-d9p">
+            <objects>
+                <viewController storyboardIdentifier="UIAnimationWebView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Zh8-Ue-ly8" customClass="UIAnimationWebView" customModule="Book_Sources" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2TO-dL-NKw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TvU-Xt-WbG">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="333.5"/>
+                                <color key="backgroundColor" red="0.69503909349441528" green="0.75321263074874878" blue="0.79573744535446167" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check the code" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="dv0-L0-9Lr">
+                                <rect key="frame" x="20" y="353.5" width="335" height="293.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.69503909350000004" green="0.7532126307" blue="0.79573744540000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dv0-L0-9Lr" firstAttribute="leading" secondItem="JIs-yF-GQ9" secondAttribute="leading" constant="20" id="44a-kC-IsK"/>
+                            <constraint firstItem="TvU-Xt-WbG" firstAttribute="top" secondItem="2TO-dL-NKw" secondAttribute="top" id="4Av-XU-96Y"/>
+                            <constraint firstItem="JIs-yF-GQ9" firstAttribute="trailing" secondItem="dv0-L0-9Lr" secondAttribute="trailing" constant="20" id="7V4-Mv-pug"/>
+                            <constraint firstItem="TvU-Xt-WbG" firstAttribute="leading" secondItem="2TO-dL-NKw" secondAttribute="leading" id="8nM-XJ-y9N"/>
+                            <constraint firstItem="TvU-Xt-WbG" firstAttribute="height" secondItem="2TO-dL-NKw" secondAttribute="height" multiplier="0.5" id="PlO-dO-RRn"/>
+                            <constraint firstItem="dv0-L0-9Lr" firstAttribute="top" secondItem="TvU-Xt-WbG" secondAttribute="bottom" constant="20" id="Pnl-g7-Rp8"/>
+                            <constraint firstAttribute="trailing" secondItem="TvU-Xt-WbG" secondAttribute="trailing" id="keL-0R-DHJ"/>
+                            <constraint firstItem="JIs-yF-GQ9" firstAttribute="bottom" secondItem="dv0-L0-9Lr" secondAttribute="bottom" constant="20" id="tFU-y0-L6T"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="JIs-yF-GQ9"/>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="dv0-L0-9Lr" id="AvW-ND-ejQ"/>
+                        <outlet property="webView" destination="TvU-Xt-WbG" id="xQ8-L1-bcv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XZ8-ia-N4W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3281" y="96"/>
+        </scene>
     </scenes>
     <resources>
         <image name="bookCode" width="491.51998901367188" height="249.60000610351562"/>

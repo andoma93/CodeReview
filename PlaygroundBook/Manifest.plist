@@ -23,6 +23,8 @@
 		<string>Chapter1.playgroundchapter</string>
 		<string>Basic.playgroundchapter</string>
 		<string>Advanced.playgroundchapter</string>
+		<string>ContinuousIntegration.playgroundchapter</string>
+		<string>End.playgroundchapter</string>
 	</array>
 </dict>
 </plist>

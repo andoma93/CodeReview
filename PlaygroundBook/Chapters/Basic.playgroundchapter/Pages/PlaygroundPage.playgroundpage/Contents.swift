@@ -34,12 +34,8 @@ public func findUserCodeInputs(from input: String) -> [String] {
 
 public func makeHelloWorldAssessment(of input: String) {
     let codeInputs = findUserCodeInputs(from: input)
-    if codeInputs[0].contains("String?"){
-        PlaygroundPage.current.assessmentStatus = .fail(hints: ["Try again 🧐"], solution: "Check the optional parameters")
-        return
-    }
-    if codeInputs[2].contains("name!"){
-        PlaygroundPage.current.assessmentStatus = .fail(hints: ["Try again 🧐"], solution: "Check the method printing 🤓")
+    if codeInputs[0].contains("String?") && !codeInputs[0].contains("guard"){
+        PlaygroundPage.current.assessmentStatus = .fail(hints: ["Try again 🧐"], solution: "Check the optional parameters or insert a 'guard' statement")
         return
     }
     PlaygroundPage.current.assessmentStatus = .pass(message: "✅✅✅ Great job! Now continue with the next exercise")

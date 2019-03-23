@@ -9,4 +9,4 @@ import UIKit
 import PlaygroundSupport
 
 // Instantiate a new instance of the live view from the book's auxiliary sources and pass it to PlaygroundSupport.
-PlaygroundPage.current.liveView = instantiateExercise()
+PlaygroundPage.current.liveView = instantiateAnimation(label: "Try removing comments to delivery a good code", gifName: "pcCoding", color: UIColor.white, textColor: UIColor.lightGray)

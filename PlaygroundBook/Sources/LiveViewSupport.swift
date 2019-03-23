@@ -41,3 +41,13 @@ public func instantiateExercise() -> PlaygroundLiveViewable {
     return IntroPageVC.instantiate(message: "Follow the exercise in the Playground Code View\n")
 }
 
+public func instantiateAnimation(label: String, gifName: String, color: UIColor? = nil, textColor: UIColor? = nil) -> PlaygroundLiveViewable {
+    let storyboard = UIStoryboard(name: "LiveView", bundle: nil)
+    let viewController = storyboard.instantiateViewController(withIdentifier: "UIAnimationWebView")
+    guard let liveViewController = viewController as? UIAnimationWebView else {
+        fatalError("LiveView.storyboard's initial scene is not a UIAnimationWebView; please either update the storyboard or this function")
+    }
+    liveViewController.config(label: label, gifName: gifName, backgroundColor: color, textColor: textColor)
+    return liveViewController
+}
+

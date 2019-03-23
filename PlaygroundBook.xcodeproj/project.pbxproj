@@ -7,11 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27090F9E2244DB9400747884 /* continuous_integration.png in Resources */ = {isa = PBXBuildFile; fileRef = 27090F9D2244DB9400747884 /* continuous_integration.png */; };
+		27090FA02244DD3600747884 /* xcodeserver1.png in Resources */ = {isa = PBXBuildFile; fileRef = 27090F9F2244DD3600747884 /* xcodeserver1.png */; };
 		272B997A2240E734002873EA /* IntroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272B99792240E734002873EA /* IntroVC.swift */; };
 		272B997C2240EBA0002873EA /* IntroPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272B997B2240EBA0002873EA /* IntroPageVC.swift */; };
 		27327C57224106B90097BB83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27327C56224106B90097BB83 /* Assets.xcassets */; };
 		27327C5B224125310097BB83 /* HelloWorldVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27327C5A224125310097BB83 /* HelloWorldVC.swift */; };
 		27327C5D224125440097BB83 /* Exercises.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27327C5C224125440097BB83 /* Exercises.storyboard */; };
+		2750344122451EE900D6D09A /* UIAnimationWebview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2750344022451EE900D6D09A /* UIAnimationWebview.swift */; };
+		2750344322451FE800D6D09A /* coding.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2750344222451FE800D6D09A /* coding.gif */; };
+		275503AC224525F900F5B6AA /* pcCoding.gif in Resources */ = {isa = PBXBuildFile; fileRef = 275503AB224525F900F5B6AA /* pcCoding.gif */; };
+		275503B0224529D500F5B6AA /* coding-freak.gif in Resources */ = {isa = PBXBuildFile; fileRef = 275503AF224529D500F5B6AA /* coding-freak.gif */; };
+		275503B222452B1100F5B6AA /* video.gif in Resources */ = {isa = PBXBuildFile; fileRef = 275503B122452B1100F5B6AA /* video.gif */; };
+		275503B42245328600F5B6AA /* apple.gif in Resources */ = {isa = PBXBuildFile; fileRef = 275503B32245328600F5B6AA /* apple.gif */; };
+		275503B62245341000F5B6AA /* iphone.gif in Resources */ = {isa = PBXBuildFile; fileRef = 275503B52245341000F5B6AA /* iphone.gif */; };
+		275503BA224535D900F5B6AA /* exit.gif in Resources */ = {isa = PBXBuildFile; fileRef = 275503B9224535D900F5B6AA /* exit.gif */; };
+		275503BC2245381300F5B6AA /* complexity.gif in Resources */ = {isa = PBXBuildFile; fileRef = 275503BB2245381300F5B6AA /* complexity.gif */; };
 		279B843E224419CA00368346 /* code_review.png in Resources */ = {isa = PBXBuildFile; fileRef = 279B843D224419CA00368346 /* code_review.png */; };
 		5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */; };
 		5E086DD32051E3A3004D8D25 /* Manifest.plist in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5E086DCF2051DF0F004D8D25 /* Manifest.plist */; };
@@ -96,11 +107,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		27090F9D2244DB9400747884 /* continuous_integration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = continuous_integration.png; sourceTree = "<group>"; };
+		27090F9F2244DD3600747884 /* xcodeserver1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xcodeserver1.png; sourceTree = "<group>"; };
 		272B99792240E734002873EA /* IntroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroVC.swift; sourceTree = "<group>"; };
 		272B997B2240EBA0002873EA /* IntroPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroPageVC.swift; sourceTree = "<group>"; };
 		27327C56224106B90097BB83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27327C5A224125310097BB83 /* HelloWorldVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldVC.swift; sourceTree = "<group>"; };
 		27327C5C224125440097BB83 /* Exercises.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Exercises.storyboard; sourceTree = "<group>"; };
+		2750344022451EE900D6D09A /* UIAnimationWebview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAnimationWebview.swift; sourceTree = "<group>"; };
+		2750344222451FE800D6D09A /* coding.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = coding.gif; sourceTree = "<group>"; };
+		275503AB224525F900F5B6AA /* pcCoding.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pcCoding.gif; sourceTree = "<group>"; };
+		275503AF224529D500F5B6AA /* coding-freak.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "coding-freak.gif"; sourceTree = "<group>"; };
+		275503B122452B1100F5B6AA /* video.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = video.gif; sourceTree = "<group>"; };
+		275503B32245328600F5B6AA /* apple.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = apple.gif; sourceTree = "<group>"; };
+		275503B52245341000F5B6AA /* iphone.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = iphone.gif; sourceTree = "<group>"; };
+		275503B9224535D900F5B6AA /* exit.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = exit.gif; path = ../../../../Downloads/exit.gif; sourceTree = "<group>"; };
+		275503BB2245381300F5B6AA /* complexity.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = complexity.gif; sourceTree = "<group>"; };
 		279B843D224419CA00368346 /* code_review.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = code_review.png; sourceTree = "<group>"; };
 		5E086DC02051C5A7004D8D25 /* CodeReview.playgroundbook */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeReview.playgroundbook; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E086DC72051DD03004D8D25 /* BookOverridingBuildSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BookOverridingBuildSettings.xcconfig; sourceTree = "<group>"; };
@@ -280,6 +302,16 @@
 		5EF2F9792054B64800191409 /* PrivateResources */ = {
 			isa = PBXGroup;
 			children = (
+				275503B9224535D900F5B6AA /* exit.gif */,
+				275503BB2245381300F5B6AA /* complexity.gif */,
+				275503B32245328600F5B6AA /* apple.gif */,
+				275503B122452B1100F5B6AA /* video.gif */,
+				275503B52245341000F5B6AA /* iphone.gif */,
+				275503AF224529D500F5B6AA /* coding-freak.gif */,
+				275503AB224525F900F5B6AA /* pcCoding.gif */,
+				2750344222451FE800D6D09A /* coding.gif */,
+				27090F9F2244DD3600747884 /* xcodeserver1.png */,
+				27090F9D2244DB9400747884 /* continuous_integration.png */,
 				279B843D224419CA00368346 /* code_review.png */,
 				5EF2F97E2054B6E400191409 /* ManifestPlist.strings */,
 				5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */,
@@ -294,6 +326,7 @@
 				27327C582241250D0097BB83 /* Welcome */,
 				5EF2F9AD2054BBF300191409 /* LiveViewController.swift */,
 				5E3196F22061DEA40077BBD7 /* LiveViewSupport.swift */,
+				2750344022451EE900D6D09A /* UIAnimationWebview.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -411,11 +444,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				275503BC2245381300F5B6AA /* complexity.gif in Resources */,
+				275503B0224529D500F5B6AA /* coding-freak.gif in Resources */,
+				27090FA02244DD3600747884 /* xcodeserver1.png in Resources */,
 				5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */,
+				275503B42245328600F5B6AA /* apple.gif in Resources */,
+				275503B222452B1100F5B6AA /* video.gif in Resources */,
+				275503BA224535D900F5B6AA /* exit.gif in Resources */,
+				2750344322451FE800D6D09A /* coding.gif in Resources */,
+				275503AC224525F900F5B6AA /* pcCoding.gif in Resources */,
+				275503B62245341000F5B6AA /* iphone.gif in Resources */,
 				279B843E224419CA00368346 /* code_review.png in Resources */,
 				27327C57224106B90097BB83 /* Assets.xcassets in Resources */,
 				27327C5D224125440097BB83 /* Exercises.storyboard in Resources */,
 				5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */,
+				27090F9E2244DB9400747884 /* continuous_integration.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +504,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2750344122451EE900D6D09A /* UIAnimationWebview.swift in Sources */,
 				27327C5B224125310097BB83 /* HelloWorldVC.swift in Sources */,
 				5E3196F32061DEA40077BBD7 /* LiveViewSupport.swift in Sources */,
 				5EF2F9AE2054BBF300191409 /* LiveViewController.swift in Sources */,
@@ -594,7 +638,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -649,7 +693,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
