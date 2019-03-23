@@ -39,7 +39,7 @@ public func makeAssessment(of input: String) {
     if !currentCode.contains("year)") && !currentCode.contains("+year") && !currentCode.contains("+ year"){
         PlaygroundPage.current.assessmentStatus = .fail(hints: ["Try again 🧐"], solution:
             """
-            print("I'll join to WWDC"+year)
+            print("I'll join to WWDC \\\\(year)")
             """
         )
         return

@@ -3,7 +3,7 @@
  
  If we look into this piece of code we see that the call to updateUI function is duplicated twice. This is a bad code because from maintainability perspective if the method definition has changed then you need to change it twice for example now the method takes 2 parameters what if we need to change it to take 3 parameters we have to change it in 2 places.
  
- - Note: let's assume we have a boolean and it's initialised with false. This method has a poor style: try to improve it!
+ - Note: Let's assume we have a boolean and it's initialised with false. This method has a poor style: try to improve it!
 */
 
 func updateUI(_ label: String, _ positionValue: Bool){
@@ -44,7 +44,7 @@ public func makeAssessment(of input: String) {
     let tok =  currentCode.components(separatedBy:"updateUI")
     var occurrences = tok.count-1
     if occurrences != 1{
-        PlaygroundPage.current.assessmentStatus = .fail(hints: ["Try again 🧐"], solution: "Try this code:\n'let message = isPositionCorrect ? 'Position Correct' : 'Position InCorrect'\n\n updateUI(message, isPositionCorrect)\n'")
+        PlaygroundPage.current.assessmentStatus = .fail(hints: ["Try again 🧐"], solution: "Try this code:\n\n'let message = isPositionCorrect ? 'Position Correct' : 'Position InCorrect'\n\n updateUI(message, isPositionCorrect)'")
         return
     }
     PlaygroundPage.current.assessmentStatus = .pass(message: "✅✅✅ Great job! Now continue with the next exercise")

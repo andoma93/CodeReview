@@ -9,4 +9,4 @@ import UIKit
 import PlaygroundSupport
 
 // Instantiate a new instance of the live view from the book's auxiliary sources and pass it to PlaygroundSupport.
-PlaygroundPage.current.liveView = instantiateAnimation(label: "Be Smart and have Foresight👓!!\n", gifName: "iphone", color: UIColor.white, textColor: UIColor.lightGray)
+PlaygroundPage.current.liveView = instantiateAnimation(label: "Be Smart and have\nForesight👓!!", gifName: "iphone", color: UIColor.white, textColor: UIColor.lightGray)

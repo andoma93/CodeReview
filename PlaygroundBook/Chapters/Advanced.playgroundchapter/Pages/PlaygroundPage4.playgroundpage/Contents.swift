@@ -42,11 +42,11 @@ public func makeAssessment(of input: String) {
     if !currentCode.contains("extension Foo"){
         PlaygroundPage.current.assessmentStatus = .fail(hints: ["Try again 🧐"], solution:
         """
-        class Foo {
-        }
-        extension Foo : Delegate {
-            func delegateMethod (){
-            }
+        class Foo {\n
+        }\n
+        extension Foo : Delegate {\n
+            func delegateMethod (){\n
+            }\n
         }
         """
         )

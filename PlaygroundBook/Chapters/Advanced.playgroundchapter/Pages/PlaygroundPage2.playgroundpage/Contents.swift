@@ -37,10 +37,10 @@ public func findUserCodeInputs(from input: String) -> [String] {
 
 public func makeAssessment(of input: String) {
     let codeInputs = findUserCodeInputs(from: input)
-    if !codeInputs[0].contains("guard"){
+    if !codeInputs[0].contains("guard") && !codeInputs[0].contains("items.count == 0") && !codeInputs[0].contains("items.count==0"){
         PlaygroundPage.current.assessmentStatus = .fail(hints: ["Try again 🧐"], solution:
             """
-            func function(items: [Int]) {
+            func function(items: [Int]) {\n
                 guard items.count > 0 else { return }
                 for item in items {
                     // do something

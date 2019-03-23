@@ -1,7 +1,7 @@
 /*:
  First Exercise: **Bang or force unwrapping**
  
- Always ask yourself isn’t there a better way of doing force unwrapping? Maybe a guard, optional chaining.
+ Always ask yourself isn’t there a better way of doing force unwrapping? Maybe a guard, optional chaining or maybe just removing the optional 🤗.
  
  - Note: Mario has pushed this fantastic function in the common repository. Maybe there is something wrong, try to check and fix his code!
  
@@ -34,8 +34,17 @@ public func findUserCodeInputs(from input: String) -> [String] {
 
 public func makeHelloWorldAssessment(of input: String) {
     let codeInputs = findUserCodeInputs(from: input)
-    if codeInputs[0].contains("String?") && !codeInputs[0].contains("guard"){
-        PlaygroundPage.current.assessmentStatus = .fail(hints: ["Try again 🧐"], solution: "Check the optional parameters or insert a 'guard' statement")
+    if codeInputs[0].contains("String?") && !codeInputs[0].contains("guard") && !codeInputs[0].contains("!= nil"){
+        PlaygroundPage.current.assessmentStatus = .fail(hints: ["Try again 🧐"], solution:
+            """
+            Check the optional parameters or insert a 'guard' statement
+            
+            func helloWorld(name: String){\n
+                //parameter name is never nil\n
+                print("Hello \\\\(name)!")\n
+            }
+            """
+        )
         return
     }
     PlaygroundPage.current.assessmentStatus = .pass(message: "✅✅✅ Great job! Now continue with the next exercise")

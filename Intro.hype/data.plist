@@ -9,7 +9,7 @@
 	<key>createOfflineApplicationCache</key>
 	<false/>
 	<key>currentSceneContainer</key>
-	<string>79</string>
+	<string>45</string>
 	<key>customExportSlices</key>
 	<array>
 		<dict>
@@ -48,8 +48,8 @@
 	<key>displayedAttributes</key>
 	<array>
 		<string>kPropertiesMenuItemIdentifierOpacity</string>
-		<string>kPropertiesMenuItemIdentifierAnimated</string>
 		<string>kPropertiesMenuItemIdentifierPosition</string>
+		<string>kPropertiesMenuItemIdentifierAnimated</string>
 	</array>
 	<key>documentVersion</key>
 	<string>574</string>
@@ -74,7 +74,7 @@
 	<key>hasManuallyChangedCSSPositioning</key>
 	<false/>
 	<key>lastCheckDate</key>
-	<date>2019-03-22T09:25:52Z</date>
+	<date>2019-03-23T09:46:04Z</date>
 	<key>layout</key>
 	<dict>
 		<key>currentInspectorPane</key>
@@ -220,7 +220,7 @@
 		<key>keyframeTimelineHeight</key>
 		<real>124</real>
 		<key>mainWindowFrame</key>
-		<string>803 274 1170 747 0 0 2560 1057 </string>
+		<string>156 119 1170 747 0 0 1440 877 </string>
 		<key>openTabs</key>
 		<array/>
 		<key>selectedTabIndex</key>
@@ -264,7 +264,7 @@
 	<key>monotypeProjectID</key>
 	<string>340B44C4-2807-4DE0-A6FB-2A61F328E20B-10408-0000D276BBA42031</string>
 	<key>oidCounter</key>
-	<integer>90</integer>
+	<integer>92</integer>
 	<key>resourcesInfo</key>
 	<dict>
 		<key>groups</key>
@@ -321,18 +321,6 @@
 				<key>expanded</key>
 				<true/>
 				<key>name</key>
-				<string>helping-hands</string>
-				<key>oid</key>
-				<string>53</string>
-				<key>resources</key>
-				<array>
-					<string>helping-hands.png</string>
-				</array>
-			</dict>
-			<dict>
-				<key>expanded</key>
-				<true/>
-				<key>name</key>
 				<string>Quality-Assurance</string>
 				<key>oid</key>
 				<string>63</string>
@@ -351,6 +339,18 @@
 				<key>resources</key>
 				<array>
 					<string>Pasted.png</string>
+				</array>
+			</dict>
+			<dict>
+				<key>expanded</key>
+				<true/>
+				<key>name</key>
+				<string>Pasted-1</string>
+				<key>oid</key>
+				<string>91</string>
+				<key>resources</key>
+				<array>
+					<string>Pasted-1.png</string>
 				</array>
 			</dict>
 		</array>
@@ -573,61 +573,6 @@
 			</dict>
 			<dict>
 				<key>fileModificationDate</key>
-				<date>2019-03-19T11:39:30Z</date>
-				<key>fileSize</key>
-				<integer>151199</integer>
-				<key>md5</key>
-				<string>122AD93C951B2E8FA3123633307A2EC2</string>
-				<key>notifyOnBookmarkChange</key>
-				<true/>
-				<key>originalPath</key>
-				<string>/Users/mariomonaco/Workspace/CodeReview/PlaygroundBook/Assets.xcassets/mutualResponsibility.imageset/helping-hands.png</string>
-				<key>resourceName</key>
-				<string>helping-hands.png</string>
-				<key>securityScopedBookmark</key>
-				<data>
-				Ym9va5QDAAAAAAQQMAAAAIl7wIAzOL17J7QbX12MyleD
-				oMYtdV/ZMWHE3FnRIYYmkAIAAAQAAAADAwAAAAkAKAUA
-				AAABAQAAVXNlcnMAAAALAAAAAQEAAG1hcmlvbW9uYWNv
-				AAkAAAABAQAAV29ya3NwYWNlAAAACgAAAAEBAABDb2Rl
-				UmV2aWV3AAAOAAAAAQEAAFBsYXlncm91bmRCb29rAAAP
-				AAAAAQEAAEFzc2V0cy54Y2Fzc2V0cwAdAAAAAQEAAG11
-				dHVhbFJlc3BvbnNpYmlsaXR5LmltYWdlc2V0AAAAEQAA
-				AAEBAABoZWxwaW5nLWhhbmRzLnBuZwAAACAAAAABBgAA
-				EAAAACAAAAA0AAAASAAAAFwAAAB0AAAAjAAAALQAAAAI
-				AAAABAMAADXSCQAAAAAACAAAAAQDAABwHkAAAAAAAAgA
-				AAAEAwAA1EFAAAAAAAAIAAAABAMAAEosKQMAAAAACAAA
-				AAQDAADGLCkDAAAAAAgAAAAEAwAAQtIpAwAAAAAIAAAA
-				BAMAAGffKQMAAAAACAAAAAQDAACS3ykDAAAAACAAAAAB
-				BgAA+AAAAAgBAAAYAQAAKAEAADgBAABIAQAAWAEAAGgB
-				AAAIAAAAAAQAAEHBIIY5XJ2uGAAAAAECAAABAAAAAAAA
-				AA8AAAAAAAAAAAAAAAAAAAAIAAAABAMAAAYAAAAAAAAA
-				BAAAAAMDAAD2AQAACAAAAAEJAABmaWxlOi8vLwsAAAAB
-				AQAASGlnaCBTaWVycmEACAAAAAQDAAAA8EHp6AAAAAgA
-				AAAABAAAQcBNoDslKlEkAAAAAQEAAEQwQkM4QkQ0LTU0
-				MjUtNDBFNi1BMUY2LTczMjdFOUUwMzlBMhgAAAABAgAA
-				gQAAAAEAAADvEwAAAQAAAAAAAAAAAAAAAQAAAAEBAAAv
-				AAAAAAAAAAEFAADMAAAA/v///wEAAAAAAAAAEAAAAAQQ
-				AADQAAAAAAAAAAUQAAB4AQAAAAAAABAQAACwAQAAAAAA
-				AEAQAACgAQAAAAAAAAIgAAB8AgAAAAAAAAUgAADsAQAA
-				AAAAABAgAAD8AQAAAAAAABEgAAAwAgAAAAAAABIgAAAQ
-				AgAAAAAAABMgAAAgAgAAAAAAACAgAABcAgAAAAAAADAg
-				AACIAgAAAAAAAAHAAADQAQAAAAAAABHAAAAgAAAAAAAA
-				ABLAAADgAQAAAAAAABDQAAAEAAAAAAAAAA==
-				</data>
-				<key>shouldAutoResize</key>
-				<true/>
-				<key>shouldIncludeInDocumentHeadHTML</key>
-				<false/>
-				<key>shouldPreload</key>
-				<true/>
-				<key>shouldRemoveWhenNoLongerReferenced</key>
-				<true/>
-				<key>type</key>
-				<string>FileResource</string>
-			</dict>
-			<dict>
-				<key>fileModificationDate</key>
 				<date>2019-03-19T11:41:26Z</date>
 				<key>fileSize</key>
 				<integer>15096</integer>
@@ -701,6 +646,26 @@
 				<key>type</key>
 				<string>FileResource</string>
 			</dict>
+			<dict>
+				<key>fileSize</key>
+				<integer>236511</integer>
+				<key>md5</key>
+				<string>429C6D9C06B03C001E5CA0914ECC1FDA</string>
+				<key>notifyOnBookmarkChange</key>
+				<true/>
+				<key>resourceName</key>
+				<string>Pasted-1.png</string>
+				<key>shouldAutoResize</key>
+				<true/>
+				<key>shouldIncludeInDocumentHeadHTML</key>
+				<false/>
+				<key>shouldPreload</key>
+				<true/>
+				<key>shouldRemoveWhenNoLongerReferenced</key>
+				<true/>
+				<key>type</key>
+				<string>FileResource</string>
+			</dict>
 		</array>
 	</dict>
 	<key>sceneContainers</key>
@@ -728,7 +693,7 @@
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{764, 441}</string>
+					<string>{764, 440}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -753,7 +718,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>80</string>
 					<key>scrollViewOffset</key>
-					<string>{1, 1}</string>
+					<string>{1, 0}</string>
 					<key>userGuides</key>
 					<array/>
 				</dict>
@@ -982,7 +947,7 @@
 						<integer>60</integer>
 					</dict>
 					<key>canvasSize</key>
-					<string>{764, 443}</string>
+					<string>{763, 440}</string>
 					<key>hypeScene</key>
 					<dict>
 						<key>backgroundColor</key>
@@ -1007,7 +972,7 @@
 					<key>rootSymbolControllerOid</key>
 					<string>46</string>
 					<key>scrollViewOffset</key>
-					<string>{1, 3}</string>
+					<string>{0, 0}</string>
 				</dict>
 			</array>
 		</dict>
@@ -1146,7 +1111,7 @@ function goNext(hypeDocument, element, event) {
 	<array>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>1A6F252B-A04A-41E0-BED3-3B25CEAFD1A2-19296-0000DC144C61F19D</string>
+			<string>4820048E-41EE-4C44-B065-7BB2840E7EED-42095-0000F5CE0D4E18A2</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -1444,9 +1409,9 @@ function goNext(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>1600px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1564,9 +1529,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>1600px</string>
 						</dict>
 					</array>
 					<key>7</key>
@@ -1585,9 +1550,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#006698</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1723,9 +1688,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#006698</string>
 						</dict>
 					</array>
 					<key>77</key>
@@ -1738,9 +1703,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1828,18 +1793,6 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>2</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>450px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
@@ -1849,6 +1802,18 @@ function goNext(hypeDocument, element, event) {
 							<string>PhysicsBodyType</string>
 							<key>objectValue</key>
 							<string>0</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>450px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>2</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -1876,9 +1841,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 				</dict>
@@ -2389,7 +2354,7 @@ function goNext(hypeDocument, element, event) {
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>1A6F252B-A04A-41E0-BED3-3B25CEAFD1A2-19296-0000DC144C61F19D</string>
+			<string>4820048E-41EE-4C44-B065-7BB2840E7EED-42095-0000F5CE0D4E18A2</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>22</string>
@@ -2408,9 +2373,9 @@ function goNext(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>1600px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2528,9 +2493,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>1600px</string>
 						</dict>
 					</array>
 					<key>18</key>
@@ -2549,9 +2514,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#006698</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2687,9 +2652,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#006698</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>20</key>
@@ -2825,9 +2790,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#006698</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2903,9 +2868,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>5</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2915,9 +2880,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>5</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -2939,9 +2904,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#006698</string>
 						</dict>
 					</array>
 				</dict>
@@ -3090,7 +3055,7 @@ function goNext(hypeDocument, element, event) {
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>1A6F252B-A04A-41E0-BED3-3B25CEAFD1A2-19296-0000DC144C61F19D</string>
+			<string>4820048E-41EE-4C44-B065-7BB2840E7EED-42095-0000F5CE0D4E18A2</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>30</string>
@@ -3109,9 +3074,9 @@ function goNext(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>1600px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3229,9 +3194,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>1600px</string>
 						</dict>
 					</array>
 					<key>28</key>
@@ -3250,9 +3215,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#006698</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3388,9 +3353,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#006698</string>
 						</dict>
 					</array>
 					<key>30</key>
@@ -3403,9 +3368,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#006698</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3493,15 +3458,15 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>343px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>343px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3523,9 +3488,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#006698</string>
 						</dict>
 					</array>
 					<key>34</key>
@@ -3797,7 +3762,7 @@ function goNext(hypeDocument, element, event) {
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>1A6F252B-A04A-41E0-BED3-3B25CEAFD1A2-19296-0000DC144C61F19D</string>
+			<string>4820048E-41EE-4C44-B065-7BB2840E7EED-42095-0000F5CE0D4E18A2</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>41</string>
@@ -3816,9 +3781,9 @@ function goNext(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>1600px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -3936,9 +3901,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>1600px</string>
 						</dict>
 					</array>
 					<key>40</key>
@@ -3957,9 +3922,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#006698</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4095,9 +4060,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#006698</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>41</key>
@@ -4110,9 +4075,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#006698</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4194,12 +4159,6 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
-							<key>objectValue</key>
-							<string>8px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>ZIndex</string>
 							<key>objectValue</key>
 							<string>4</string>
@@ -4209,6 +4168,12 @@ function goNext(hypeDocument, element, event) {
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>503px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>PaddingLeft</string>
+							<key>objectValue</key>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4230,9 +4195,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#006698</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>44</key>
@@ -4504,11 +4469,9 @@ function goNext(hypeDocument, element, event) {
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>1A6F252B-A04A-41E0-BED3-3B25CEAFD1A2-19296-0000DC144C61F19D</string>
+			<string>4820048E-41EE-4C44-B065-7BB2840E7EED-42095-0000F5CE0D4E18A2</string>
 			<key>selectedObjects</key>
-			<array>
-				<string>51</string>
-			</array>
+			<array/>
 			<key>symbol</key>
 			<dict>
 				<key>addToNewSceneControllers</key>
@@ -4523,9 +4486,9 @@ function goNext(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>1600px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4643,9 +4606,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>1600px</string>
 						</dict>
 					</array>
 					<key>50</key>
@@ -4664,9 +4627,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#006698</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4802,9 +4765,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#006698</string>
 						</dict>
 					</array>
 					<key>51</key>
@@ -4817,9 +4780,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#006698</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4907,15 +4870,15 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>Width</string>
-							<key>objectValue</key>
-							<string>521px</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>Width</string>
+							<key>objectValue</key>
+							<string>521px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4937,12 +4900,12 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#006698</string>
 						</dict>
 					</array>
-					<key>54</key>
+					<key>92</key>
 					<array>
 						<dict>
 							<key>identifier</key>
@@ -4978,7 +4941,7 @@ function goNext(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Top</string>
 							<key>objectValue</key>
-							<string>50px</string>
+							<string>16px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -4996,25 +4959,25 @@ function goNext(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Height</string>
 							<key>objectValue</key>
-							<string>79px</string>
+							<string>125px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>BackgroundImageResourceGroupOid</string>
 							<key>objectValue</key>
-							<string>53</string>
+							<string>91</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>Left</string>
 							<key>objectValue</key>
-							<string>40px</string>
+							<string>23px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>SizeRatio</string>
 							<key>objectValue</key>
-							<string>1.5015</string>
+							<string>0.958549</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5032,7 +4995,7 @@ function goNext(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>Width</string>
 							<key>objectValue</key>
-							<string>119px</string>
+							<string>121px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5050,19 +5013,19 @@ function goNext(hypeDocument, element, event) {
 							<key>identifier</key>
 							<string>DisplayName</string>
 							<key>objectValue</key>
-							<string>helping-hands</string>
+							<string>Pasted-1</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>OriginalHeight</string>
 							<key>objectValue</key>
-							<string>333px</string>
+							<string>1158px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
 							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>500px</string>
+							<string>1110px</string>
 						</dict>
 					</array>
 				</dict>
@@ -5211,7 +5174,7 @@ function goNext(hypeDocument, element, event) {
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>1A6F252B-A04A-41E0-BED3-3B25CEAFD1A2-19296-0000DC144C61F19D</string>
+			<string>4820048E-41EE-4C44-B065-7BB2840E7EED-42095-0000F5CE0D4E18A2</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>57</string>
@@ -5236,9 +5199,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#006698</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5320,12 +5283,6 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
-							<key>objectValue</key>
-							<string>5</string>
-						</dict>
-						<dict>
-							<key>identifier</key>
 							<string>PaddingLeft</string>
 							<key>objectValue</key>
 							<string>8px</string>
@@ -5335,6 +5292,12 @@ function goNext(hypeDocument, element, event) {
 							<string>Width</string>
 							<key>objectValue</key>
 							<string>417px</string>
+						</dict>
+						<dict>
+							<key>identifier</key>
+							<string>ZIndex</string>
+							<key>objectValue</key>
+							<string>5</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5356,9 +5319,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#006698</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>59</key>
@@ -5377,9 +5340,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#006698</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5515,18 +5478,18 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#006698</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>60</key>
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>1600px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -5644,9 +5607,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>1600px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>64</key>
@@ -5918,7 +5881,7 @@ function goNext(hypeDocument, element, event) {
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>1A6F252B-A04A-41E0-BED3-3B25CEAFD1A2-19296-0000DC144C61F19D</string>
+			<string>4820048E-41EE-4C44-B065-7BB2840E7EED-42095-0000F5CE0D4E18A2</string>
 			<key>selectedObjects</key>
 			<array>
 				<string>74</string>
@@ -6214,9 +6177,9 @@ function goNext(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>1600px</string>
+							<string>div</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6334,9 +6297,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>1600px</string>
 						</dict>
 					</array>
 					<key>74</key>
@@ -6558,7 +6521,7 @@ function goNext(hypeDocument, element, event) {
 		</dict>
 		<dict>
 			<key>documentIdentifier</key>
-			<string>1A6F252B-A04A-41E0-BED3-3B25CEAFD1A2-19296-0000DC144C61F19D</string>
+			<string>4820048E-41EE-4C44-B065-7BB2840E7EED-42095-0000F5CE0D4E18A2</string>
 			<key>selectedObjects</key>
 			<array/>
 			<key>symbol</key>
@@ -6575,9 +6538,9 @@ function goNext(hypeDocument, element, event) {
 					<array>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>OriginalWidth</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>1600px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -6695,9 +6658,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>OriginalWidth</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>1600px</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>84</key>
@@ -6991,9 +6954,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7075,9 +7038,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>6</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7087,9 +7050,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>6</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7111,9 +7074,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>88</key>
@@ -7126,9 +7089,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7210,9 +7173,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>7</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7222,9 +7185,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>7</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7246,9 +7209,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>89</key>
@@ -7261,9 +7224,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7351,9 +7314,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>8</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7363,9 +7326,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>8</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7387,9 +7350,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 					<key>90</key>
@@ -7402,9 +7365,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TagName</string>
+							<string>TextColor</string>
 							<key>objectValue</key>
-							<string>div</string>
+							<string>#000000</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7486,9 +7449,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>ZIndex</string>
+							<string>PaddingLeft</string>
 							<key>objectValue</key>
-							<string>9</string>
+							<string>8px</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7498,9 +7461,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>PaddingLeft</string>
+							<string>ZIndex</string>
 							<key>objectValue</key>
-							<string>8px</string>
+							<string>9</string>
 						</dict>
 						<dict>
 							<key>identifier</key>
@@ -7522,9 +7485,9 @@ function goNext(hypeDocument, element, event) {
 						</dict>
 						<dict>
 							<key>identifier</key>
-							<string>TextColor</string>
+							<string>TagName</string>
 							<key>objectValue</key>
-							<string>#000000</string>
+							<string>div</string>
 						</dict>
 					</array>
 				</dict>
@@ -7681,7 +7644,7 @@ function goNext(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>74673C58-B582-4DDC-AD83-DB973EEBB23C-19296-0000DC78CB3B3C04</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>2</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -7710,7 +7673,7 @@ function goNext(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>397A9179-F7A9-4659-A776-2D272D7AFACB-19296-0000DC7077691956</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>3</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -7746,7 +7709,7 @@ function goNext(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>79C692E3-724F-4D19-BD8E-0E326FAB1F43-19296-0000DC800B866B97</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>4</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -7775,7 +7738,7 @@ function goNext(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>946C3389-79E4-4721-BD79-214730ABF974-19296-0000DC78CB4D700A</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>5</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -7811,7 +7774,7 @@ function goNext(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>85C2A740-F6DD-4EA0-82B5-AACA7B647704-19296-0000DC9B412A521B</string>
 								<key>zIndex</key>
-								<integer>1</integer>
+								<integer>6</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -7840,7 +7803,7 @@ function goNext(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>C81825ED-9EC3-4A55-89E5-ED79F3FFF142-19296-0000DC800BA3293C</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>7</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
@@ -7869,7 +7832,7 @@ function goNext(hypeDocument, element, event) {
 								<key>uuid</key>
 								<string>80AE93CF-A1FE-41AE-B9FD-B8AC46C652B9-19296-0000DC9B4146388E</string>
 								<key>zIndex</key>
-								<integer>2</integer>
+								<integer>8</integer>
 							</dict>
 							<dict>
 								<key>duration</key>
